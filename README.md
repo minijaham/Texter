@@ -10,21 +10,21 @@
 
 ### Overview
 
-You can set the plugin language by changing the `locale` in [config.yml](/resources/config.yml)  
-also, supported languages are automatically displayed according to the locale of the client.
+플러그인의 언어를 바꾸시려면 [config.yml](/resources/config.yml)으로 가신 뒤, `locale`을 바꾸시면 됩니다.
+그리고 지원되는 언어들은 locale을 따라서 자동으로 표시가 됩니다.
 
-Select another language:
+지원이 되는 언어들:
 [日本語](./.github/readme/ja_jp.md),
 [русский](./.github/readme/ru_ru.md),
 [中文](./.github/readme/zh_cn.md),
 [Türkçe](./.github/readme/tr_tr.md)
-
+[English](https://github.com/fuyutsuki/Texter/blob/master/README.md)
 ***
 
-## Texter
+## 텍스터
 
-Texter is plugin that displays and deletes FloatingTextParticle supported to multi-world.  
-Latest: ver **3.4.6**  
+텍스터 플러그인은 홀로그램 사용과 멀티월드 지원을 합니다!
+최신 버전: ver **3.4.6**  
 
 
 <!--
@@ -32,43 +32,43 @@ Latest: ver **3.4.6**
 -->
 
 
-### Supporting
+### 텍스터는 무었을 지원 하나요?
 
-- [x] Minecraft(Bedrock)
-- [x] Multi-language (English, Japanese, Russian, Chinese, Turkish)
-- [x] Multi-world display
+- [x] 마인크래프트(Bedrock, 포켓에디션)
+- [x] 다양한 언어 (English, Japanese, Russian, Chinese, Turkish, Korean)
+- [x] 멀티월드 홀로그램 디스플레이
 
-### Download
+### 다운로드
 
 * [Poggit](https://poggit.pmmp.io/p/Texter)
 
-### Commands
+### 커맨드
 
-#### General command
+#### 기본 커맨드
 
-| \ |command|alias|
+| \ |커맨드|Shortcut|
 |:--:|:--:|:--:|
-|Add text|`/txt add`|`/txt a`|
-|Edit text|`/txt edit`|`/txt e`|
-|Move text|`/txt move`|`/txt m`|
-|Remove text|`/txt remove`|`/txt r`|
-|Listup texts|`/txt list`|`/txt l`|
-|Help|`/txt or /txt help`|`/txt ?`|
+|텍스트 추가|`/txt add`|`/txt a`|
+|텍스트 편집|`/txt edit`|`/txt e`|
+|텍스트 이동|`/txt move`|`/txt m`|
+|텍스트 제거|`/txt remove`|`/txt r`|
+|텍스트 리스트|`/txt list`|`/txt l`|
+|도움|`/txt or /txt help`|`/txt ?`|
 
-**Please use `#` for line breaks.**
+**`#` 로 여러 줄을 만들수있습니다**
 
-### json notation
+### json 노트.(직접 게임접속을 하지 않아도 여기서 편집을 할수있습니다
 
 - uft.json
 ```json
 {
-  "LevelFolderName": {
-    "TextName(Unique)": {
+  "월드 폴더 이름": {
+    "텍스트 이름": {
       "Xvec": 128,
       "Yvec": 90,
       "Zvec": 128,
-      "TITLE": "Title",
-      "TEXT": "Text(New line with #)"
+      "TITLE": "제목",
+      "TEXT": "텍스트(#로 새로운 라인을 만들수 있습니다)"
     }
   }
 }
