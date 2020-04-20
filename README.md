@@ -11,6 +11,7 @@
 ### Overview
 
 플러그인의 언어를 바꾸시려면 [config.yml](/resources/config.yml)으로 가신 뒤, `locale`을 바꾸시면 됩니다.
+
 지원되는 언어들은 locale을 따라서 자동으로 표시가 됩니다.
 
 지원이 되는 언어들:
