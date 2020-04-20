@@ -35,7 +35,7 @@
 ### 텍스터는 무었을 지원 하나요?
 
 - [x] 마인크래프트(Bedrock, 포켓에디션)
-- [x] 다양한 언어 (English, Japanese, Russian, Chinese, Turkish, Korean)
+- [x] 다양한 언어 (영어, 일본어, 러시아어, 중국어, 터키어, 한국어)
 - [x] 멀티월드 홀로그램 디스플레이
 
 ### 다운로드
